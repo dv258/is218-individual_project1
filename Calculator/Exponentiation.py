@@ -1,4 +1,4 @@
 class Exponentiation:
     @staticmethod
-    def exponentiation(base, exponent):
+    def power(base, exponent):
         return base ** exponent

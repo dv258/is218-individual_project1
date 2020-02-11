@@ -11,28 +11,28 @@ class Calculator:
     def __init__(self):
         self.result = 0
 
-    def addition(self, augend, addend=None):
-        self.result = Addition.addition(augend, addend)
+    def sum(self, augend, addend=None):
+        self.result = Addition.sum(augend, addend)
         return self.result
 
-    def subtraction(self, minuend, subtrahend):
-        self.result = Subtraction.subtraction(minuend, subtrahend)
+    def difference(self, minuend, subtrahend):
+        self.result = Subtraction.difference(minuend, subtrahend)
         return self.result
 
-    def multiplication(self, multiplier, multiplicand):
-        self.result = Multiplication.multiplication(multiplier, multiplicand)
+    def product(self, multiplier, multiplicand):
+        self.result = Multiplication.product(multiplier, multiplicand)
         return self.result
 
-    def division(self, numerator, denominator):
-        self.result = Division.division(numerator, denominator)
+    def quotient(self, numerator, denominator):
+        self.result = Division.quotient(numerator, denominator)
         return self.result
 
-    def exponentiation(self, base, exponent):
-        self.result = Exponentiation.exponentiation(base, exponent)
+    def power(self, base, exponent):
+        self.result = Exponentiation.power(base, exponent)
         return self.result
 
-    def nthRoot(self, radicand, degree):
-        self.result = NthRoot.nthRoot(radicand, degree)
+    def root(self, radicand, degree):
+        self.result = NthRoot.root(radicand, degree)
         return self.result
 
     def logarithm(self, antilogarithm, base):

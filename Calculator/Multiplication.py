@@ -1,4 +1,4 @@
 class Multiplication:
     @staticmethod
-    def multiplication(multiplier, multiplicand):
+    def product(multiplier, multiplicand):
         return multiplier * multiplicand

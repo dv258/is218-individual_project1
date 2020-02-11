@@ -1,4 +1,4 @@
 class NthRoot:
     @staticmethod
-    def nthRoot(radicand, degree):
+    def root(radicand, degree):
         return radicand ** (1 / degree)

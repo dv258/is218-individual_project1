@@ -1,4 +1,4 @@
 class Division:
     @staticmethod
-    def division(numerator, denominator):
+    def quotient(numerator, denominator):
         return numerator / denominator

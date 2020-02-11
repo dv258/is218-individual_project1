@@ -1,4 +1,4 @@
 class Subtraction:
     @staticmethod
-    def subtraction(minuend, subtrahend):
+    def difference(minuend, subtrahend):
         return minuend - subtrahend

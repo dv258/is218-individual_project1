@@ -1,6 +1,6 @@
 class Addition:
     @staticmethod
-    def addition(augend, addend=None):
+    def sum(augend, addend=None):
         if type(augend) == list:
             return sum(augend)
 
